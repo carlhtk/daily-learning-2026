@@ -14,7 +14,7 @@ def deposit(current_balance, amount):
     """Adds the amount to the balance and returns the new total."""
     new_balance = current_balance + amount
     return new_balance
-
+    
 def withdraw(current_balance, amount):
     """Subtracts the amount if funds are available; otherwise, warns the user."""
     if amount <= current_balance:
